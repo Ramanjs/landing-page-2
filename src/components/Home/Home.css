@@ -1,0 +1,47 @@
+.home {
+  position: relative;
+  align-items: flex-start;
+  background-image: url(../../assets/home-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 90px;
+}
+
+.home-img {
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*top: 10%;*/
+  /*left: 0;*/
+  /*right: 0;*/
+}
+
+.got-logo {
+  width: 100px;
+  z-index: 2;
+}
+
+.partners {
+  padding: 1rem 2.5rem;
+}
+
+.home-footer {
+  background-image: url(../../assets/home-ft.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  min-height: 75vh;
+  justify-content: flex-end;
+  color: #2E2E2E;
+}
+
+.socials-list {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.socials-list img {
+  width: 20%;
+  cursor: pointer;
+}
+

@@ -1,0 +1,34 @@
+.chapters {
+  padding: 1rem 2.5rem;
+}
+
+.chapter-list {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.chapter-point {
+  color: #96D009;
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.75rem 0;
+  padding: 1rem 1.5rem;
+}
+
+.chapter-point p {
+  margin: 0.1rem 0;
+  font-family: 'Road Rage', sans-serif;
+  font-size: calc(1.5rem + 1vmin);
+}
+
+.right-border {
+  border-right: 1px solid #F2F2F2;
+}

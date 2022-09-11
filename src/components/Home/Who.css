@@ -1,0 +1,7 @@
+.who {
+  padding: 1rem 2.5rem;
+  background-image: url(../../assets/who-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 90%;
+}
