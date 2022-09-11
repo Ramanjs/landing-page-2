@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/landing-page-2/static/css/main.5c4b51f6.css",
+    "main.js": "/landing-page-2/static/js/main.291b4012.js",
+    "static/media/home-bg.png": "/landing-page-2/static/media/home-bg.b2fcb7cee99abe4356a5.png",
+    "static/media/GoT Logo.png": "/landing-page-2/static/media/GoT Logo.19d74a27d54b03747759.png",
+    "static/media/who-bg.png": "/landing-page-2/static/media/who-bg.6bb6c2a7fe7ec2b153bf.png",
+    "index.html": "/landing-page-2/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.5c4b51f6.css",
+    "static/js/main.291b4012.js"
+  ]
+}
