@@ -29,6 +29,7 @@
   padding: 0;
   justify-content: space-between;
   list-style-type: none;
+  height: 100%;
 }
 
 .nav-menu li {
@@ -43,11 +44,10 @@
 }
 
 .nav-menu li a {
-  margin-top: auto;
+  /*margin-top: auto;*/
   color: white;
   text-decoration: none;
   width: 100%;
-  font-size: calc(0.50rem + 1vmin);
   font-weight: 400;
 }
 
@@ -68,6 +68,22 @@ a {
 .daze_logo {
   width: 80px;
   margin: 0 5px;
+}
+
+.nav-active {
+  background-color: #FFC63F;
+  color: black !important;
+  border-radius: 2px;
+  font-size: calc(0.50rem + 1vmin);
+}
+
+.nav-active li a {
+  color: black;
+}
+
+.nav-inactive {
+  font-family: 'Nunito';
+  font-size: calc(0.30rem + 1vmin);
 }
 
 @media screen and (max-width: 768px) {

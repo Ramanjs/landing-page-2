@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/landing-page-2/">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
