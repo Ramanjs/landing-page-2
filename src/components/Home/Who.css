@@ -1,7 +1,28 @@
 .who {
   padding: 1rem 2.5rem;
   background-image: url(../../assets/who-bg.png);
+  position: relative;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0 90%;
+}
+
+@media screen and (max-width: 768px) {
+  .who {
+    padding: 1rem;
+    background-color: #002D10;
+    background-image: none;
+  }
+
+  .who::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 5%;
+    background-image: url(../../assets/who-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+  }
 }

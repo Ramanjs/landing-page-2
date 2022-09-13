@@ -27,8 +27,31 @@
   margin: 0.1rem 0;
   font-family: 'Road Rage', sans-serif;
   font-size: calc(1.5rem + 1vmin);
+  text-align: center;
 }
 
-.right-border {
+.border-rt {
   border-right: 1px solid #F2F2F2;
+}
+
+@media screen and (max-width: 768px) {
+  .chapters {
+    padding: 1rem;
+  }
+
+  .chapter-list {
+    flex-direction: column;
+  }
+
+  .chapter-point {
+    width: 80%;
+  }
+
+  .border-rt {
+    border-right: none;
+  }
+
+  .border-bt {
+    border-bottom: 1px solid #F2F2F2;
+  }
 }

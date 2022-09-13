@@ -45,3 +45,21 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  .home {
+    background-position: 0 100%;
+  }
+
+  .partners {
+    padding: 1rem;
+  }
+
+  .home-footer {
+    min-height: 20vh;
+    background-size: 150%;
+  }
+
+  .socials-list {
+    width: 40%;
+  }
+}
