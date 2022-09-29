@@ -1,0 +1,9 @@
+iframe {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .premium {
+    width: 100%;
+  }
+}

@@ -104,7 +104,8 @@ a {
   .nav-menu li {
     width: 100%;
     box-sizing: border-box;
-    padding: 10px 20px;
+    padding: 10px 0px;
+    background-color: #222522;
   }
 
   .nav-menu li:hover {
