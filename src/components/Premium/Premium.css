@@ -26,6 +26,10 @@
   width: 100%;
 }
 
+.premium-text {
+  padding: 1rem 2rem;
+}
+
 @media screen and (max-width: 768px) {
   .premium {
     width: 100%;
