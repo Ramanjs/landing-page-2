@@ -1,0 +1,30 @@
+.contact {
+  font-family: 'Nunito', sans-serif;
+  font-size: calc(0.5rem + 1vmin);
+  justify-content: center;
+}
+
+.contact-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.contact-list li {
+  margin: 0.5rem 0;
+}
+
+.contact-socials-list {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-socials-list div {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-socials-list div img {
+  width: 35px;
+  height: auto;
+  cursor: pointer;
+}
