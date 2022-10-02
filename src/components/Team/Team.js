@@ -4,6 +4,9 @@ import puma from '../../assets/puma.png';
 import bimbra from '../../assets/bimbra.png';
 import r3naturals from '../../assets/r3natural.png';
 import traveloholic from '../../assets/traveloholic.png';
+import dashmesh from '../../assets/dashmesh.png';
+import mmg from '../../assets/mmg.jpg';
+import oraz from '../../assets/oraz.jpg';
 
 const Team = () => {
 
@@ -25,12 +28,15 @@ const Team = () => {
       name: 'R3 Naturals Spa',
     },
     {
+      logo: dashmesh,
       name: 'Dashmesh Customs',
     },
     {
+      logo: mmg,
       name: 'MMG',
     },
     {
+      logo: oraz,
       name: 'ORAZ',
     },
     {
