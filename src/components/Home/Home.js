@@ -26,9 +26,9 @@ const Home = () => {
       <div className="container home-footer">
         <p>Email: <a href="">gangofthars@gmail.com</a></p>
         <div className="socials-list">
-          <img src={ig} alt="icon" />
-          <img src={fb} alt="icon" />
-          <img src={wa} alt="icon" />
+          <a href="https://www.instagram.com/gangofthars/"><img src={ig} alt="icon" /></a>
+          <a href="https://www.facebook.com/groups/453577469243129/"><img src={fb} alt="icon" /></a>
+          <a href="https://api.whatsapp.com/send?phone=919990020099&text=Hello%20Dr.%20Amarjit%2C%20I%20want%20to%20know%20more%20about%20GoT"><img src={wa} alt="icon" /></a>
         </div>
       </div>
     </div>

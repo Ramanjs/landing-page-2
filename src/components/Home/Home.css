@@ -40,7 +40,7 @@
   justify-content: space-between;
 }
 
-.socials-list img {
+.socials-list a {
   width: 20%;
   cursor: pointer;
 }
