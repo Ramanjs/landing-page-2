@@ -78,7 +78,9 @@ a {
 .nav-active {
   background-color: #FFC63F;
   color: black !important;
-  border-radius: 2px;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
   font-size: calc(0.50rem + 1vmin);
 }
 
