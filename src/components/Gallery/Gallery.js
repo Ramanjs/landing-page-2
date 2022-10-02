@@ -1,5 +1,4 @@
 import './Gallery.css';
-import Gallery from 'react-photo-gallery';
 import a from '../../assets/gallery/12156877-dd81-4375-afee-3678bf6b134a.JPG';
 import b from '../../assets/gallery/2acbe879-3e60-4e3d-a2a1-e5c54c57e092.JPG';
 import c from '../../assets/gallery/300f7dd9-d3b6-41dc-b613-14a98b55c01c.jpg';
