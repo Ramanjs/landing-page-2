@@ -3,6 +3,7 @@ import homebg from '../../assets/home-bg.png';
 import gotlogo from '../../assets/GoT Logo.png';
 import Who from './Who';
 import Chapters from './Chapters';
+import Team from '../Team/Team';
 import ig from '../../assets/ig.png';
 import fb from '../../assets/fb.png';
 import wa from '../../assets/wa.png';
@@ -16,9 +17,10 @@ const Home = () => {
         {/*<img src={homebg} alt="background" className="home-img" />*/}
       </div>
       <Who />
-      <div className="container partners">
+      <div className="container partners-container">
         <h2>Our Partners</h2>
         <p>We have partnered with multiple brands and companies to provide special discount and services to GoT members. Here’s a list of all the stores, companies and brands who have partnered with us:</p>
+        <Team />
       </div>
       <Chapters />
       <div className="container home-footer">

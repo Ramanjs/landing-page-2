@@ -20,7 +20,7 @@
   z-index: 2;
 }
 
-.partners {
+.partners-container {
   padding: 1rem 2.5rem;
 }
 
@@ -50,7 +50,7 @@
     background-position: 0 100%;
   }
 
-  .partners {
+  .partners-container {
     padding: 1rem;
   }
 
