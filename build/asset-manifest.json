@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5dfe5345.css",
+    "main.js": "/static/js/main.81b43981.js",
+    "static/media/IMG_2592.JPG": "/static/media/IMG_2592.6058f707fe57a6967fff.JPG",
+    "static/media/home-bg.png": "/static/media/home-bg.b2fcb7cee99abe4356a5.png",
+    "static/media/GoT Events Banner.png": "/static/media/GoT Events Banner.939f829640b45c2d7d28.png",
+    "static/media/got-events-banner-mobile.png": "/static/media/got-events-banner-mobile.588e545d2c1670f288d4.png",
+    "static/media/IMG_2770.JPG": "/static/media/IMG_2770.c308dc88ac347df637f8.JPG",
+    "static/media/12156877-dd81-4375-afee-3678bf6b134a.JPG": "/static/media/12156877-dd81-4375-afee-3678bf6b134a.eb1627ff190fb072e893.JPG",
+    "static/media/f8c534e0-4499-454f-9982-7854c29692fc.JPG": "/static/media/f8c534e0-4499-454f-9982-7854c29692fc.ae0fc76e01c9fe5a5325.JPG",
+    "static/media/2acbe879-3e60-4e3d-a2a1-e5c54c57e092.JPG": "/static/media/2acbe879-3e60-4e3d-a2a1-e5c54c57e092.68007533fd8547e15988.JPG",
+    "static/media/300f7dd9-d3b6-41dc-b613-14a98b55c01c.jpg": "/static/media/300f7dd9-d3b6-41dc-b613-14a98b55c01c.39c6dc44e637462d1ea6.jpg",
+    "static/media/5B7B8E91-AA0B-44F7-9C76-702DF5D0D136.jpg": "/static/media/5B7B8E91-AA0B-44F7-9C76-702DF5D0D136.05b2a65a02fb7b8c585a.jpg",
+    "static/media/fde48fdd-2567-4763-b796-c3f37db4271b.JPG": "/static/media/fde48fdd-2567-4763-b796-c3f37db4271b.2f24cc2efdbe3cb486a7.JPG",
+    "static/media/dd1ec5f0-1105-4c33-8d3b-61815e09fd91.jpg": "/static/media/dd1ec5f0-1105-4c33-8d3b-61815e09fd91.ca38c4eb75063a12fd4b.jpg",
+    "static/media/6c3f72a1-be6e-47b1-9597-5295009a838d.JPG": "/static/media/6c3f72a1-be6e-47b1-9597-5295009a838d.8bf92f22b39b6b7cc0e9.JPG",
+    "static/media/a795e904-6cf1-4959-909a-95e7a147f9bc.jpg": "/static/media/a795e904-6cf1-4959-909a-95e7a147f9bc.d5b944f792ddae5f9dea.jpg",
+    "static/media/GoT Premium Banner.png": "/static/media/GoT Premium Banner.00f2eb1d9548026fb6d0.png",
+    "static/media/got-premium-banner-mobile.png": "/static/media/got-premium-banner-mobile.c1f43d070792794d70bb.png",
+    "static/media/GoT Logo.png": "/static/media/GoT Logo.19d74a27d54b03747759.png",
+    "static/media/r3natural.png": "/static/media/r3natural.cf29a52b2172ef479530.png",
+    "static/media/mmg.jpg": "/static/media/mmg.ac5f4221e88c5465d860.jpg",
+    "static/media/oraz.jpg": "/static/media/oraz.5cff5768192224a4c9e8.jpg",
+    "static/media/traveloholic.png": "/static/media/traveloholic.be71f2852c3fe7e01160.png",
+    "static/media/dashmesh.png": "/static/media/dashmesh.1d37be30cdb6819906f7.png",
+    "static/media/radisson.png": "/static/media/radisson.0bb0543b5578d8c50666.png",
+    "static/media/bimbra.png": "/static/media/bimbra.83b51f7984b5ad89c3e4.png",
+    "static/media/who-bg.png": "/static/media/who-bg.6bb6c2a7fe7ec2b153bf.png",
+    "static/media/puma.png": "/static/media/puma.58537c24a0bdec579ea1.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.5dfe5345.css",
+    "static/js/main.81b43981.js"
+  ]
+}
