@@ -7,43 +7,27 @@ import traveloholic from '../../assets/traveloholic.png';
 import dashmesh from '../../assets/dashmesh.png';
 import mmg from '../../assets/mmg.jpg';
 import oraz from '../../assets/oraz.jpg';
+import {useEffect, useState} from 'react';
 
 const Team = () => {
 
-  const partners = [
-    {
-      logo: radisson, 
-      name: 'Radisson Hotels',
-    },
-    {
-      logo: puma, 
-      name: 'Puma Cyber Hub',
-    },
-    {
-      logo: bimbra, 
-      name: 'Bimbra 4x4',
-    },
-    {
-      logo: r3naturals, 
-      name: 'R3 Naturals Spa',
-    },
-    {
-      logo: dashmesh,
-      name: 'Dashmesh Customs',
-    },
-    {
-      logo: mmg,
-      name: 'MMG',
-    },
-    {
-      logo: oraz,
-      name: 'ORAZ',
-    },
-    {
-      logo: traveloholic, 
-      name: 'Travel-Oholic',
-    },
-  ];
+  const [partners, setPartners] = useState([]) 
+  const PROJECT_ID = "jqjakyhg";
+  const DATASET = "production";
+
+  useEffect(() => {
+    let QUERY = encodeURIComponent('*[_type == "partners"]{ "imageUrl": partner_logo.asset->url, "name": partner_name }')
+    fetch(`https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`)
+      .then(res => res.json())
+      .then(({ result }) => {
+        setPartners(result.map(item => (
+          {
+            name: item.name,
+            logo: item.imageUrl
+          }
+        )))
+      })
+  }, [])
 
   return (
     <div className="team">
