@@ -15,6 +15,7 @@
 .chapter-point {
   color: #96D009;
   width: 24%;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
