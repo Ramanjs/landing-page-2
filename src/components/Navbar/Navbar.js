@@ -12,13 +12,13 @@ const Navbar = () => {
     <div className="navbar">
       {/*<Link to="/"><img src={dazelogo} alt="logo" className="daze_logo"/></Link>*/}
       {isMobile ? <MenuIcon onClick={() => setIsNavExpanded(!isNavExpanded)} className="hamburger" fontSize="large"/> : null}
-      <ul className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
-        <li><NavLink to="/" onClick={() => setIsNavExpanded(!isNavExpanded)} className={({ isActive }) => isActive ? "nav-active" : "nav-inactive"} >Home</NavLink></li>
-        <li><NavLink to="/events" onClick={() => setIsNavExpanded(!isNavExpanded)} className={({ isActive }) => isActive ? "nav-active" : "nav-inactive"}>Events</NavLink></li>
-        <li><NavLink to="/premium" onClick={() => setIsNavExpanded(!isNavExpanded)} className={({ isActive }) => isActive ? "nav-active" : "nav-inactive"}>Premium</NavLink></li>
-        <li><NavLink to="/gallery" onClick={() => setIsNavExpanded(!isNavExpanded)} className={({ isActive }) => isActive ? "nav-active" : "nav-inactive"}>Gallery</NavLink></li>
-        <li><NavLink to="/cities" onClick={() => setIsNavExpanded(!isNavExpanded)} className={({ isActive }) => isActive ? "nav-active" : "nav-inactive"}>Cities</NavLink></li>
-        <li><NavLink to="/contact" onClick={() => setIsNavExpanded(!isNavExpanded)} className={({ isActive }) => isActive ? "nav-active" : "nav-inactive"}>Contact</NavLink></li>
+      <ul className={"nav-menu" + (isNavExpanded ? " expanded" : "")}>
+        <li><NavLink to="/" onClick={() => setIsNavExpanded(false)} className={({ isActive }) => isActive ? "nav-active" : "nav-inactive"} >Home</NavLink></li>
+        <li><NavLink to="/events" onClick={() => setIsNavExpanded(false)} className={({ isActive }) => isActive ? "nav-active" : "nav-inactive"}>Events</NavLink></li>
+        <li><NavLink to="/premium" onClick={() => setIsNavExpanded(false)} className={({ isActive }) => isActive ? "nav-active" : "nav-inactive"}>Premium</NavLink></li>
+        <li><NavLink to="/gallery" onClick={() => setIsNavExpanded(false)} className={({ isActive }) => isActive ? "nav-active" : "nav-inactive"}>Gallery</NavLink></li>
+        <li><NavLink to="/cities" onClick={() => setIsNavExpanded(false)} className={({ isActive }) => isActive ? "nav-active" : "nav-inactive"}>Cities</NavLink></li>
+        <li><NavLink to="/contact" onClick={() => setIsNavExpanded(false)} className={({ isActive }) => isActive ? "nav-active" : "nav-inactive"}>Contact</NavLink></li>
       </ul>
     </div>
   )

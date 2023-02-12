@@ -93,6 +93,18 @@ a {
   font-size: calc(0.30rem + 1vmin);
 }
 
+.nav-menu.expanded {
+  display: flex;
+  position: fixed;
+  width: 50vw;
+  height: 100vh;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  background-color: #222522;
+}
+
 @media screen and (max-width: 768px) {
   .nav-menu {
     position: absolute;
@@ -117,9 +129,5 @@ a {
   .nav-menu li a {
     font-weight: 400;
     padding: 0.5rem 1rem;
-  }
-
-  .nav-menu.expanded {
-    display: block;
   }
 }

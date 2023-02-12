@@ -15,7 +15,6 @@ const Home = () => {
       <div className="container home">
         <img src={gotlogo} alt="logo" className="got-logo" />
         <h1>We are the gang of thars!</h1>
-        {/*<img src={homebg} alt="background" className="home-img" />*/}
         <div className="scrollarrow">Scroll to know more <ArrowDownwardIcon fontSize="inherit"/></div>
       </div>
       <Who />
