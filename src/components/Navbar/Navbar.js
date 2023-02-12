@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       {/*<Link to="/"><img src={dazelogo} alt="logo" className="daze_logo"/></Link>*/}
-      {isMobile ? <MenuIcon onClick={() => setIsNavExpanded(!isNavExpanded)} className="hamburger" /> : null}
+      {isMobile ? <MenuIcon onClick={() => setIsNavExpanded(!isNavExpanded)} className="hamburger" fontSize="large"/> : null}
       <ul className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
         <li><NavLink to="/" onClick={() => setIsNavExpanded(!isNavExpanded)} className={({ isActive }) => isActive ? "nav-active" : "nav-inactive"} >Home</NavLink></li>
         <li><NavLink to="/events" onClick={() => setIsNavExpanded(!isNavExpanded)} className={({ isActive }) => isActive ? "nav-active" : "nav-inactive"}>Events</NavLink></li>
