@@ -106,11 +106,10 @@
   }
 
   .partners-list {
-    flex-direction: column;
     align-items: center;
   }
 
   .partner {
-    width: 100%;
+    width: 49%;
   }
 }
