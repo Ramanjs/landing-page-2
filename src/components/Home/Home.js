@@ -7,6 +7,7 @@ import Team from '../Team/Team';
 import ig from '../../assets/ig.png';
 import fb from '../../assets/fb.png';
 import wa from '../../assets/wa.png';
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <img src={gotlogo} alt="logo" className="got-logo" />
         <h1>We are the gang of thars!</h1>
         {/*<img src={homebg} alt="background" className="home-img" />*/}
+        <div className="scrollarrow">Scroll to know more <ArrowDownwardIcon fontSize="inherit"/></div>
       </div>
       <Who />
       <div className="container partners-container">
