@@ -6,6 +6,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import gallery from './gallery'
 import partners from './partners'
 import chapters from './chapters'
+import event from './event'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -16,6 +17,7 @@ export default createSchema({
   types: schemaTypes.concat([
     gallery,
     partners,
-    chapters
+    chapters,
+    event
   ]),
 })
